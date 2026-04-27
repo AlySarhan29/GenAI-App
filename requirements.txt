@@ -10,3 +10,5 @@ groq>=0.9.0
 
 # ── Utilities (standard library, listed for clarity) ─────────────────────────
 # json, os, re, pathlib, logging — all built-in, no install needed
+litellm>=1.0.0
+python-dotenv>=1.0.0
