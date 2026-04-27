@@ -1,0 +1,177 @@
+{
+    "Document Metadata": {
+        "Title": "A System of Effective Transmission Data for Rating Telephone Circuits",
+        "Authors": [
+            "F. W. McKown",
+            "J. V. L. Emling"
+        ],
+        "Year": null,
+        "Source": "Bell System Technical Journal",
+        "Engineering Domain": "Telecommunications \u2014 Telephone transmission systems and circuit performance evaluation"
+    },
+    "Technical Dictionary Terms": [
+        {
+            "Term": "Effective Loss",
+            "Definition": "A quantitative measure representing the transmission performance of a telephone circuit expressed in decibels relative to a reference circuit.",
+            "Context": "Used to evaluate overall transmission performance by combining distortion, noise, and sidetone effects.",
+            "System Component": "Telephone transmission circuits",
+            "Page": "332\u2013334"
+        },
+        {
+            "Term": "Reference System",
+            "Definition": "A reference circuit arrangement used as a standard for comparing transmission performance of telephone circuits.",
+            "Context": "Allows circuit element changes to be expressed as changes in effective equivalent of the reference system.",
+            "System Component": "Transmission rating system",
+            "Page": "334"
+        },
+        {
+            "Term": "Volume Loss",
+            "Definition": "Loss in transmission level expressed in decibels relative to a reference circuit.",
+            "Context": "Used as the basis for rating circuit performance and evaluating circuit elements.",
+            "System Component": "Transmission path",
+            "Page": "332\u2013333"
+        },
+        {
+            "Term": "Transmission Loop Loss",
+            "Definition": "Loss associated with the transmitting loop of a telephone connection.",
+            "Context": "Component contributing to effective circuit loss.",
+            "System Component": "Subscriber loop",
+            "Page": "337"
+        },
+        {
+            "Term": "Receiving Loop Loss",
+            "Definition": "Loss associated with the receiving loop in a telephone circuit.",
+            "Context": "Used when calculating effective losses of circuits.",
+            "System Component": "Subscriber loop",
+            "Page": "337"
+        },
+        {
+            "Term": "Sidetone",
+            "Definition": "Sound heard in the transmitter originating from the receiver of the same telephone circuit.",
+            "Context": "Considered a transmission characteristic affecting circuit performance.",
+            "System Component": "Telephone set",
+            "Page": "341"
+        },
+        {
+            "Term": "Circuit Noise",
+            "Definition": "Noise introduced by circuit components or external interference affecting transmission quality.",
+            "Context": "Considered in determining effective transmission loss.",
+            "System Component": "Telephone transmission circuits",
+            "Page": "341"
+        },
+        {
+            "Term": "Room Noise",
+            "Definition": "Environmental noise present at the receiving location affecting telephone transmission perception.",
+            "Context": "Added to effective losses when evaluating receiving system performance.",
+            "System Component": "Subscriber environment",
+            "Page": "341"
+        },
+        {
+            "Term": "Junction Loss",
+            "Definition": "Loss introduced at junction points between circuit sections.",
+            "Context": "Included in effective loss calculations.",
+            "System Component": "Network switching points",
+            "Page": "337"
+        },
+        {
+            "Term": "Trunk Loss",
+            "Definition": "Transmission loss associated with trunk lines connecting exchanges.",
+            "Context": "Considered in rating telephone circuit elements.",
+            "System Component": "Trunk circuits",
+            "Page": "340"
+        }
+    ],
+    "Engineering Rules": [
+        {
+            "Rule": "The performance of a complete telephone circuit can be described with sufficient accuracy using volume loss, sidetone, distortion, and noise parameters.",
+            "Explanation": "These parameters represent the major transmission characteristics influencing circuit performance.",
+            "Component": "Telephone transmission circuits",
+            "Page": "333"
+        },
+        {
+            "Rule": "Transmission performance should be expressed relative to a reference system to enable comparison between circuits.",
+            "Explanation": "Using a reference system allows circuit element changes to be represented as changes in effective equivalent loss.",
+            "Component": "Transmission rating methodology",
+            "Page": "334"
+        },
+        {
+            "Rule": "The effective transmission loss of a circuit is determined by combining the equivalent losses of individual circuit elements.",
+            "Explanation": "Individual components such as loops, trunks, and junctions contribute to overall effective circuit loss.",
+            "Component": "Telephone network elements",
+            "Page": "337"
+        },
+        {
+            "Rule": "Loss ratings of circuit elements are expressed relative to the loss of a reference loop.",
+            "Explanation": "Each circuit element is evaluated relative to the performance of the reference system.",
+            "Component": "Subscriber loop and trunk circuits",
+            "Page": "338"
+        },
+        {
+            "Rule": "Changes in sidetone, distortion, or noise can be expressed as equivalent changes in volume loss.",
+            "Explanation": "This allows different transmission impairments to be represented within a single rating metric.",
+            "Component": "Telephone transmission system",
+            "Page": "343"
+        }
+    ],
+    "System Architecture": {
+        "Subscriber Equipment": [
+            "Subscriber loop",
+            "Telephone transmitter",
+            "Telephone receiver"
+        ],
+        "Local Exchange Components": [
+            "Central office apparatus",
+            "Junction connections"
+        ],
+        "Transmission Network": [
+            "Trunk circuits",
+            "Intermediate junctions",
+            "Transmission lines"
+        ],
+        "Reference System Components": [
+            "Subscriber loop",
+            "Variable resistance network",
+            "Repeating coils",
+            "Attenuation pads",
+            "Reference trunk"
+        ]
+    },
+    "Engineering Parameters": [
+        {
+            "Parameter": "Volume Loss",
+            "Meaning": "Transmission loss relative to reference circuit",
+            "Effect": "Higher loss reduces signal strength and clarity",
+            "Page": "332"
+        },
+        {
+            "Parameter": "Circuit Noise",
+            "Meaning": "Electrical noise within the circuit",
+            "Effect": "Reduces speech intelligibility",
+            "Page": "341"
+        },
+        {
+            "Parameter": "Sidetone Level",
+            "Meaning": "Degree to which speaker hears their own voice",
+            "Effect": "Excessive sidetone reduces perceived transmission quality",
+            "Page": "343"
+        },
+        {
+            "Parameter": "Distortion",
+            "Meaning": "Deviation of signal from original waveform",
+            "Effect": "Reduces clarity of speech transmission",
+            "Page": "343"
+        },
+        {
+            "Parameter": "Loop Length",
+            "Meaning": "Length of subscriber loop",
+            "Effect": "Influences transmission loss and sidetone characteristics",
+            "Page": "338"
+        },
+        {
+            "Parameter": "Trunk Length",
+            "Meaning": "Length of trunk transmission path",
+            "Effect": "Determines attenuation and trunk loss",
+            "Page": "339"
+        }
+    ]
+}
